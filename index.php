@@ -20,6 +20,10 @@
 <body>
     <div class="hero" id="home">
         <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
             <h2 class="logo">Portfo<span>lio</span></h2>
             <ul>
                 <li><a href="#home" class="active">Home</a></li>
@@ -44,7 +48,7 @@
         <div class="main">
             <img src="img/blerta.jpg" width="300px" height="400px" alt="">
             <div class="about-text">
-                <h2>About Me</h2>
+                <h1>About Me</h1>
                 <h5>Developer <span >& Designer</span></h5>
                 <p>
                 I am Blerta Aliu, third year student of Computer Science and Engineering. 
@@ -84,7 +88,7 @@
     <!-- skills section-->
     <div class="skills" id="skills">
         <div class="title">
-            <h2>Skills</h2>
+            <h1>Skills</h1>
         </div>
         <div class="box">
             <div class="card">
